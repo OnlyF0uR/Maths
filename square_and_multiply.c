@@ -72,7 +72,7 @@ int main(int argc, char *argv[]) {
                 n = n*n % mod;
             } else { // Else it must be 1 (multiplication)
                 printf("SM");
-                // First square than multiply, bcs 1 = 0+1
+                // First square then multiply, bcs 1 = 0+1
                 n = (n*n % mod)*b % mod;
             }
         }
